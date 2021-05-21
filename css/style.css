@@ -48,7 +48,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; 
- border:5px solid red; 
+ /* border:5px solid red;  */
 /* border inserted*/
 }
 
@@ -451,7 +451,7 @@ pre {
   overflow-y: scroll; }
 
 .container {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   /* border inserted */
   width: 100%;
   padding-right: 15px;
@@ -6889,7 +6889,8 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important; }
+  margin:auto;
+ }
 
 @media (min-width: 576px) {
   .m-sm-0 {
@@ -8140,7 +8141,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #000000;
+  background: #171c2b;
+
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -8171,7 +8173,7 @@ h1, h2, h3, h4, h5,
   color: #ffbd39 !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  background: rgb(13, 17, 26) !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -8179,7 +8181,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: rgb(13, 17, 26) !important;
       position: relative;
       top: 0;
       padding-top: 0;
@@ -8303,8 +8305,9 @@ h1, h2, h3, h4, h5,
     right: 0;
     left: 0;
     top: 0;
+    /* border: 0.25px solid black; */
     margin-top: -130px;
-    background: #000000 !important;
+    background: rgb(13, 17, 26) !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px; }
@@ -8546,8 +8549,9 @@ h1, h2, h3, h4, h5,
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               font-size: 40px; } }
         .owl-carousel.home-slider .slider-item .slider-text h2 {
-          font-size: 30px;
-          font-weight: 400; }
+          font-size: 20px;
+          font-weight: 400;
+          opacity: 0.5; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
               color: #fff; } }
@@ -9088,7 +9092,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
+  padding: 0.5em;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
